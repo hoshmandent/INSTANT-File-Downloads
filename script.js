@@ -14,6 +14,7 @@ function base64tobytes(base64data){
     return bytesData.buffer;
 }
 
+
 var fileBytes = base64tobytes(filedata); 
 var blob = new Blob([fileBytes], {"type":"octet/stream"});
 
