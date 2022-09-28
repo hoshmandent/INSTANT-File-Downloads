@@ -1,7 +1,6 @@
 # INSTANT File Downloads Using JavaScript:
 ## Instantly download a file from your web page into the users computer Using a JavaScript Script.
 <br />
-<br />
 
 ## For this demonstration I'm going to use Windows for the System and The Calculator app located at 'C:\Windows\System32\calc.exe'
 
