@@ -20,7 +20,7 @@ $base64string = [Convert]::ToBase64String([IO.File]::ReadAllBytes('C:\Windows\Sy
 ```
 this will Encode the data into Base64 String making it easier to work with.
 
-* Now to Output the $base64string variable we need to put it in a file run the following command to write the data into a file
+* Now to Output the $base64string variable we need to put the data in a file, run the following command to write the data into a file.
 ```powershell
 $base64string | Out-File TempData.log
 ```
