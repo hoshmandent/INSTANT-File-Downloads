@@ -1,0 +1,71 @@
+.confirmed {
+    margin: 0 auto;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+    font-family: 'Oswald', sans-serif;
+}
+.confirmed h5 {
+    font-size: 50px;
+    margin: 0px;
+    color: #4CAF50;
+}
+.confirmed p {
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: 300;
+}
+.confirmed button {
+    background: #4CAF50;
+    border-color: #4CAF50;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 45px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+}
+.confirmed span.close {
+    float: left;
+    position: absolute;
+    right: -15px;
+    top: -18px;
+    width: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    background: #4caf50;
+    border-radius: 100px;
+    height: 30px;
+    color: #fff;
+    line-height: 27px;
+}
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    margin: -75px 0 0 -75px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
