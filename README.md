@@ -55,7 +55,7 @@ i'm not gonna get into this much because it's basic js and im just using built-i
 var fileBytes = base64tobytes(filedata); 
 ```
 
-* now we're going to defind a new Blob it has to be a new Blob because this is a object.
+* now we're going to defind a new Blob, it has to be a new Blob because this is a object.
 ```js
 var blob = new Blob([fileBytes], {"type":"octet/stream"});
 ```
