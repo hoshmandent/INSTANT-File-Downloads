@@ -84,4 +84,5 @@ anchor.click();
 ```js
 window.URL.revokeObjectURL(url);
 ```
+Now you can check that calc.exe is working fine with all of it's funcationality.
 # **for educational purposes Only!**
