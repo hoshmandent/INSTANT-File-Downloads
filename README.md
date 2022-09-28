@@ -30,7 +30,7 @@ $base64string | Out-File TempData.log
 notepad.exe TempData.log
 ```
 * Copy the Whole Data and paste it in the [script.js](script.js) Variable named 'filedata'
-```
+
 
 # After copying the base64 encoded data into that variable now we can start to code the whole script.js file
 
