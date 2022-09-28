@@ -7,8 +7,6 @@
 
 
 ---
-<br />
-
 
 # Steps
 * Get The Content of Calc.exe in Powershell by running 
