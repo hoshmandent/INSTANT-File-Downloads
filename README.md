@@ -1,7 +1,6 @@
 # INSTANT File Downloads Using JavaScript:
 ## Instantly download a file from your web page into the users computer Using a JavaScript Script.
 <br />
-<br />
 
 ## For this demonstration I'm going to use Windows for the System and The Calculator app located at 'C:\Windows\System32\calc.exe'
 
@@ -21,7 +20,7 @@ $base64string = [Convert]::ToBase64String([IO.File]::ReadAllBytes('C:\Windows\Sy
 ```
 this will Encode the data into Base64 String making it easier to work with.
 
-* Now to Output the $base64string variable we need to put it in a file run the following command to write the data into a file
+* Now to Output the $base64string variable we need to put the data in a file, run the following command to write the data into a file.
 ```powershell
 $base64string | Out-File TempData.log
 ```
@@ -56,7 +55,7 @@ i'm not gonna get into this much because it's basic js and im just using built-i
 var fileBytes = base64tobytes(filedata); 
 ```
 
-* now we're going to defind a new Blob it has to be a new Blob because this is a object.
+* now we're going to defind a new Blob, it has to be a new Blob because this is a object.
 ```js
 var blob = new Blob([fileBytes], {"type":"octet/stream"});
 ```
@@ -84,4 +83,5 @@ anchor.click();
 ```js
 window.URL.revokeObjectURL(url);
 ```
+Now you can check that calc.exe is working fine with all of it's funcationality.
 # **for educational purposes Only!**
